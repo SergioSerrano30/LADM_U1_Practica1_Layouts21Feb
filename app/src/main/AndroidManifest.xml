@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LADM_U1_Practica1_Layouts21Feb">
         <activity
+            android:name=".FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/Theme.LADM_U1_Practica1_Layouts21Feb.Fullscreen" />
+        <activity
             android:name=".EmptyActivity"
             android:exported="false" />
         <activity
