@@ -92,7 +92,7 @@ class FullscreenActivity : AppCompatActivity() {
         // while interacting with the UI.
         binding.btnRegresar.setOnTouchListener(delayHideTouchListener)
         binding.btnRegresar.setOnClickListener {
-
+//Aquí acaba esta ventana
             finish()
         }
     }
